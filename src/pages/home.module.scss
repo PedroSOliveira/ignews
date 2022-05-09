@@ -1,0 +1,49 @@
+.homeContainer {
+  height: calc(100vh - 6rem);
+  //   width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  place-items: center;
+
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    gap: 2rem;
+
+    span {
+      align-items: flex-start;
+      font-size: 24px;
+    }
+
+    h1 {
+      font-size: 72px;
+
+      span {
+        font-size: 72px;
+        color: var(--cyan-500);
+      }
+    }
+
+    p {
+      font-size: 24px;
+
+      span {
+        color: var(--cyan-500);
+      }
+    }
+  }
+
+  .hero {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .avatarImg {
+      justify-self: left;
+    }
+  }
+}
